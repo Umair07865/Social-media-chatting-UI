@@ -1,0 +1,423 @@
+*{
+    font-family: 'Poppins',sans-serif;
+
+}
+body{
+    padding:0;
+    margin: 0;
+    font-family: 'Noto Sans Limbu', sans-serif;;
+
+   padding-left: 0.5rem;
+   padding-right: 0.5rem;
+    background-color: rgb(243, 246, 251) !important;
+
+}
+
+.container{
+    margin-top: 4rem !important;
+    height: 1050px;
+    width: 90%;
+    padding: 1rem;
+    /* border: 1px solid black; */
+    background-color: rgb(255,255,255);
+    border-radius: 10px;
+}
+.row{
+    justify-content: space-between;
+}
+.row>div{
+    
+    height: 1020px;
+}
+
+.firstcol > div{
+   
+   margin-top: 4rem;
+    
+}
+.header{
+height: 3rem;
+width: 100%;
+border: none;
+}
+.header img{
+    /* height: 2.5rem;
+    width: 8.5rem; */
+    height: 3.7rem;
+    width: 12.5rem;
+}
+
+
+.image{
+   height: 250px;
+   width: 100%;
+   border-radius: 10px;
+   text-align: center;
+   gap: 1rem;
+
+   padding: 2rem;
+   padding-top: 1rem;
+   border: none;
+   background-color: rgb(243, 246, 251);
+
+   
+}
+.lowercontainer{
+
+    height: 470px;
+    width: 100%;
+
+}
+.lowercontainer h6{
+    font-weight: 600;
+
+}
+.secondcol{
+    border-radius: 5px;
+    border: none !important ;
+    overflow-y: scroll;
+    background-color: rgb(243, 246, 251);
+}
+
+    
+.image img{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    margin: 1rem;
+}
+.row1{
+    display: flex;
+     gap: 8px;
+     justify-content: center; 
+}
+.colorfontsmal{
+    color: rgb(121,135,153);
+    font-size: 13px;
+}
+.lowercontainer .header{
+    height: 2.5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.iconnumber{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  font-weight: 600;
+
+  color: black;
+  text-align: center;
+  justify-content: center;
+  font-size: small;
+  background-color:   rgb(231 235 241);
+   border:1px solid  rgb(231 235 241);
+
+}
+.mylist{
+justify-content: flex-start;
+}
+.mylist img{
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    margin: 1rem;
+
+}
+.textt{
+    line-height: 4.5rem;
+   
+}
+.lowercontainer ul{
+    padding: 0;
+}
+.lowercontainer ul li:hover{
+    border-radius: 10px;
+    background-color: rgb(243, 246, 251) ;
+}
+.secondcol span{
+    border: 1px solid;
+    line-height: 0.9rem;
+    height: 3rem;
+    margin-top: 1rem;
+   
+    border-radius: 10px !important;
+    padding: 1rem;
+}
+
+.secondcol ul li {
+  margin-top: 1.3rem;
+}
+.black{
+    background-color: black;
+    color: white;
+}
+.white{
+    background-color: white;
+    
+}
+
+.circle{
+    border-radius: 50%;
+    height: 0.8rem;
+    width: 0.8rem;
+    border: 2px solid white;
+    background-color: rgb(106, 167, 16);
+   position: relative;
+}
+/* .white .circle{
+    left: 31%;
+}
+.black .circle{
+    left: 67.6%;
+    top: 12.4rem;
+} */
+#cb1{
+
+    left: 66.9%;
+    top: 8rem;
+}
+#cb2{
+    left: 66.9%;
+    
+}
+
+#cb3{
+    top: 17rem;
+    left: 32.4%;
+}
+#cb4{
+    left: 32.4%;
+}
+#cb5{ left: 66.9%;
+    
+}
+#cb6{
+    left: 32.4%;
+}
+#cb7{
+    left: 66.9%;
+    
+}
+#cb8{
+    left: 32.4%;
+}
+#cb9{
+    left: 32.4%;
+}
+#cb10{
+    left: 66.9%;
+    
+}
+.label1{
+right: 7.5rem;
+                    
+position: relative;
+/* margin-top: 4rem; */
+z-index: 100;
+/* border: 1px solid; */
+/* padding-top: 0rem; */
+height: 1rem;
+top: 4.2rem;
+font-size: 9px;}
+.lab{
+    left: 8rem;
+}
+
+.lasttable  tr>td{
+    height: 1rem !important;
+    /* border: 1px solid blue; */
+}
+.send{
+    height: 2rem;
+    text-align: center;
+    width: 6rem;
+    display: flex;
+    padding-left: 0% !important;
+}
+.inputimg{
+    height: 1.2rem !important;
+    width: 1.6rem !important;
+    position: relative;
+    top: -2.9rem;
+    left: 26rem;
+}
+.thirdimg{
+    background-color: rgb(192,215,251);
+    color: rgb(68, 90, 185);
+    font-weight: 600;
+    line-height: 4.8rem;
+    margin-left: 5rem;
+    justify-content: center;
+    height: 5rem;
+    width: 5rem;
+    font-size: 1.6rem;
+    
+    border-radius: 50%;
+}
+.grid1{
+    border-radius: 10px;
+  
+    margin-top: 2rem;
+
+    width: 100%;
+    height: 520px;
+   display: grid;
+  grid-template-columns: repeat(2,7rem);
+  grid-template-rows: repeat(2,5rem);
+  
+  gap: 1rem;
+  text-align: center;
+  justify-content: center;
+  padding: 1rem;
+  padding-left: 2rem;
+}
+.innergrid >div{
+  
+    border-radius: 10px;
+    padding: 0.5rem;
+
+}
+.iconnumber table tr > td{
+   
+    height: 5rem;
+    width: 5rem;
+    padding: 0.5rem;
+  
+}
+.color1{
+    color: rgb(0, 57, 179);
+  
+}
+.color2
+{
+    color: rgb(0, 176, 108);
+} 
+.color3{
+    color: rgb(119, 0, 255);
+  
+}
+.color4{
+color: rgb(255, 130, 21);
+}
+.lastinnerdiv{
+    position: relative;
+    left: -8rem;
+    background-color: rgb(243, 246, 251);
+    /* border: 1px solid black; */
+    top: 1rem;
+    height: 15rem;
+    width: 15rem;
+    
+}
+.exclaimatrymark tr td {
+
+    /* border: 1px solid black; */
+    height: 12rem;
+    /* padding: 0.5rem; */
+    
+}
+.exclaim{
+    font-size: 6rem;
+color: rgb(218, 228, 249);
+
+   
+}
+.sen td{
+
+   height: 3rem !important;
+    font-size: 15px!important;
+
+}
+.lastdivv{
+    /* border: 1px solid black; */
+    height: 250px;
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+   
+    position: relative;
+
+   padding-top: 2rem !important;
+    background-color: rgb(243, 246, 251);
+    height: 11rem;
+    top: 2rem;
+    width: 19rem;
+    left: -10.5rem;
+    }
+    /* form below the media queries are started   */
+
+
+    @media (max-width:1399px)
+    {
+        .grid1{
+            height: 505px;
+        } 
+        /* .image{
+            padding-left: 28rem;
+        } */
+        .imgg{
+            top: 2.6rem;
+            left: -7rem !important;
+        }
+        .thirdccol{
+            background-color: white;
+            margin-top: 3rem;
+            padding-top: 1rem;
+        }
+        .lastdivv{
+            top: 0.6rem;
+        }
+        #messegeinput{
+            width: 48rem !important;
+        }
+        .inputimg{
+            left: 44.5rem;
+        }
+        /* .exclaimatrymark td{
+            display: flex;
+            flex-direction: row;
+            height: 3rem;
+            width: 67rem;
+            gap: 55rem;
+            position: relative;
+            top: 1rem;
+            left: -34rem;
+            border: none !important;
+        } */
+    }
+    @media (max-width:786px){
+
+
+        #messegeinput{
+
+    width: 34rem;
+
+        }
+        .inputimg{
+            left: 26rem;
+        }
+        .imgg{
+            top: 2.6rem !important;
+
+        }
+    }
+    @media (max-width:424px){
+
+
+        #messegeinput{
+
+    width: 14rem !important;
+
+        }
+        .inputimg{
+            left: 11rem;
+        }
+        .imgg{
+            top: 2.6rem !important;
+
+        }
+    }
